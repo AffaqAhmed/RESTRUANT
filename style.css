@@ -1,0 +1,152 @@
+
+body    {
+    /* background-color: rgb(66, 65, 65);
+    background-image: url(images/background-adare-restaurant.jpg); */
+    background-image: linear-gradient(to right,#01CE8C,#003891,#05001A,#000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header  {
+    height: 120px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 1000px 1000px;
+
+}
+
+main    {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main a  {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+footer  {
+    background-color: rgba(0, 0, 0, 0.87);
+    text-align: center;  
+}
+
+h1  {
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p   {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a   {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+footer p    {
+    font-size: 10px;
+    color: rgba(245, 245, 245, 0.739);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+   
+}
+
+.maps   {
+    padding-bottom: 100px;
+}
+
+a.reservation  {
+    font-size: 1.1rem;
+    font-family: 'Playfair Display',serif ;
+}
+
+main i  {
+    color: white;
+    padding-right: 0px;
+}
+
+.tbox :last-child   {
+    font-size: 0.8rem;
+}
+
+/* .navbutton  {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-box   {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.navbutton:hover .dropdown-box  {
+    display: block;
+}
+
+.dropdown-box .navbutton    {
+    width: 1000px
+} */
+.dropdown-box   {
+    display: none;
+    position: absolute;
+    text-align: center;
+    margin-left: -50px;
+    padding-top: 14px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbutton:hover .dropdown-box{
+    display:block;
+
+}
+
+.dropdown-box .navbutton    {
+    width: 150px;
+    background-color: rgba(204, 54, 54, 0.205);
+}
+
+.dropdown-box .navbutton a{
+    color: rgb(255, 255, 255)5);
+}
+
+.dropdown-box .navbutton:hover  {
+    background-color: #01CE8C;   
+    transition-duration: 0.1s; 
+}
+
+.navbutton  {
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
